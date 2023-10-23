@@ -3,6 +3,7 @@ title: "Beeswarm Plots"
 format: html
 editor: visual
 ---
+
 ## Beeswarm plot
 
 This code was adapted from Stephanie Evergreen's Code for Beeswarm Plots. [This article](https://stephanieevergreen.com/ways-to-make-more-inclusive-data-viz/) goes over the motivation for using a beeswarm plot in detail. The gist is that these are great charts when you want to compare a continuous variable across multiple categories.
@@ -94,3 +95,12 @@ plot_horiz <- iris %>%
   labs(title = "Sepal Length of Iris Species")
 plot_horiz
 ```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
